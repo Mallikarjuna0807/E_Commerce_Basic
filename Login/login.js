@@ -9,7 +9,7 @@
       if (email === emailvalue && password === passwordvalue) {
         console.log(email, password);
         alert("credentials same");
-        window.location.href="http://127.0.0.1:5500/Dom.html"
+        window.location.href="../index.html"
       } else {
         alert("donot match email or password");
       }

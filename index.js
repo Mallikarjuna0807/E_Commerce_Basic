@@ -70,9 +70,11 @@ function filtaring(apiData, option) {
 
 // navigate to the cart page
 function navigate() {
-  window.location.href = "http://127.0.0.1:5500/practies/cart/cart.html";
+  window.location.href = "./cart/cart.html";
 }
-
+function login(){
+  window.location.href = "./login/login.html"
+}
 // getting the select element with the id and adding change event listner
 let sortOption = document.getElementById("sort");
 sortOption.addEventListener("change", function () {

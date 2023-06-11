@@ -19,3 +19,7 @@
     // let newdata = JSON.parse(localStorage.getItem("Singup"));
     // console.log(newdata);
   });
+
+  function singUp(){
+    window.location.href = "../login/login.html"
+  }
