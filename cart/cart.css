@@ -1,0 +1,67 @@
+#container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* border: 1px solid red; */
+  margin-top: 10px;
+}
+#price {
+  width: 20%;
+  height: 100px;
+  border: 1px solid;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.box {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  margin-top: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  /* border: 1px solid; */
+  background-color: white;
+}
+#container > div > img {
+  width: 50%;
+  height: 150px;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+#container > div > p {
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+#container > div > h4 {
+  width: 80%;
+  height: 130px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: clip;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.buybtn {
+  width: 70%;
+  height: 30px;
+  /* border: 1px solid; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.buybtn > button {
+  width: 38%;
+  height: 25px;
+  margin: auto;
+  border-radius: 8px;
+}

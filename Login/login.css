@@ -1,0 +1,44 @@
+body {
+  background-color: rgba(105, 105, 105, 0.111);
+}
+.container {
+  width: 30%;
+  height: 300px;
+  border: 1px solid;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 10px;
+  background-color: white;
+}
+h2 {
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Space Grotesk", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26.4px;
+  color: rgb(15, 15, 15);
+}
+.login {
+  width: 80%;
+  height: 120px;
+  /* border: 1px solid; */
+  margin: auto;
+  margin-top: 20px;
+}
+.box {
+  width: 98%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+.submit {
+  width: 30%;
+  height: 40px;
+  margin-left: 160px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: orange;
+}
