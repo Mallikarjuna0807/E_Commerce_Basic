@@ -99,3 +99,7 @@ function sorting(apiData, option) {
     data(sortData);
   }
 }
+
+function signUp(){
+  window.location.href = "../signUp/signUp.html"
+}
